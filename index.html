@@ -1,3 +1,7 @@
 <script>
-window.location.href='https://itunes.apple.com/us/app/360-mea-360-video-vr-player/id964118383?ls=1&mt=8';
+window.location.href='mea://http://www.360mea.com/video-details/?id=<?php echo $id; ?>'; // deeplink
+
+        setTimeout(function() {
+            window.location.href='https://itunes.apple.com/us/app/360-mea-360-video-vr-player/id964118383?ls=1&mt=8';
+        }, 250);
 </script>
